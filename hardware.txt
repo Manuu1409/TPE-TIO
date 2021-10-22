@@ -1,0 +1,4 @@
+Precios de hardware:
+
+GPU:
+3070: 1000usd
