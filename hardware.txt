@@ -1,6 +1,5 @@
 Precios de hardware:
 
 GPU:
-3080: 1800usd
 3070: 1000usd
 3060: 800usd
