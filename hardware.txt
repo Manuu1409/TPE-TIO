@@ -1,9 +1,10 @@
 Precios de hardware:
 
 GPU:
-3070: 1000usd
-3060: 800usd
-3080: 900usd
+NVIDIA GeForce RTX 3070ti: 1000usd
+NVIDIA GeForce RTX 3060ti: 800usd
+NVIDIA GeForce RTX 3080ti: 900usd
+NVIDIA GeForce GTX 1050ti: 400usd
 
 Placa Madre: 
 asus: 200usd 
