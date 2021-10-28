@@ -4,3 +4,6 @@ GPU:
 3070: 1000usd
 3060: 800usd
 3080: 900usd
+
+Placa Madre: 
+asus: 200usd 
