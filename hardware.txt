@@ -7,7 +7,7 @@ NVIDIA GeForce RTX 3080ti: 900usd
 NVIDIA GeForce GTX 1050ti: 400usd
 NVIDIA GeForce GTX 1050: 200usd
 
-Placa Madre: 
-asus: 200usd
-x570 - p: 120usd
-B550: 100usd
+Motherboards: 
+Asus Prime B450M: 200usd
+Gigabyte x570 Ud: 120usd
+Asus Prime B550M-K: 100usd
