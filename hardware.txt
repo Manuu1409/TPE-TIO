@@ -13,5 +13,6 @@ Gigabyte x570 Ud: 120usd
 Asus Prime B550M-K: 100usd
 Asus Prime Z590-P: 230usd
 
-Memoria ram:
-Asus 8gb : 50 usd
+Memorias RAM:
+Asus 8gb DDR4 2666MHz: 50usd
+HyperX 8gb DDR4 3200Mhz:70usd
