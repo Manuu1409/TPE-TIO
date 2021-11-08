@@ -27,3 +27,8 @@ footer {
   background-color: lightblue;
   padding: 30px;
 }
+
+#icon-header {
+  font-size: 40px;
+  color: black;
+}
