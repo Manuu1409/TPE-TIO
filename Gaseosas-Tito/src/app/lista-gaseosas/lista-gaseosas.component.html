@@ -9,24 +9,12 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>Fanta</td>
-            <td>Naranja</td>
-            <td>157</td>
-            <td>7</td>
-            <td><img [src]= ></td> <!-- Para poner imagen se usa [] en el src -->
-        </tr>
-        <tr>
-            <td>Sprite</td>
-            <td>Limon</td>
-            <td>150</td>
-            <td>3</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+        <tr *ngFor="let Gaseosa of Gaseosas">
+            <td>{{Gaseosa.nombre}}</td>
+            <td>{{Gaseosa.sabor}}</td>
+            <td>{{Gaseosa.precio}}</td>
+            <td>{{Gaseosa.stock}}</td>
+          <!--   <td><img [src]= ></td>  Para poner imagen se usa [] en el src -->
         </tr>
     </tbody>
 </table>
