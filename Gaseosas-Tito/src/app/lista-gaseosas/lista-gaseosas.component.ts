@@ -13,7 +13,8 @@ export class ListaGaseosasComponent implements OnInit {
     nombre : "Fanta",
     sabor : "Naranja",
     precio : 85,
-    stock : 8,
+    stock : 0,
+    imagen: "assets/fanta.jpg",
     
   },
   {
@@ -21,6 +22,7 @@ export class ListaGaseosasComponent implements OnInit {
     sabor : "Limon",
     precio : 95,
     stock : 18,
+    imagen: "assets/sprite.jpg",
     
   },
   {
@@ -28,6 +30,7 @@ export class ListaGaseosasComponent implements OnInit {
     sabor : "Lima-Limon",
     precio : 70,
     stock : 10,
+    imagen: "assets/sevenup.jpg",
     
   }
 

@@ -12,8 +12,9 @@
         <tr *ngFor="let Gaseosa of Gaseosas">
             <td>{{Gaseosa.nombre}}</td>
             <td>{{Gaseosa.sabor}}</td>
-            <td>{{Gaseosa.precio}}</td>
-            <td>{{Gaseosa.stock}}</td>
+            <td>{{Gaseosa.precio | currency}}</td>
+            <td><span *ngIf="Gaseosa.stock==0" >Sin Stock</span></td>
+            <td><img [src]="Gaseosa.imagen" ></td>
           <!--   <td><img [src]= ></td>  Para poner imagen se usa [] en el src -->
         </tr>
     </tbody>

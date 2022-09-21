@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Gaseosas-Tito';
+
+  hora : number  = Date.now();
+
+  
 }
