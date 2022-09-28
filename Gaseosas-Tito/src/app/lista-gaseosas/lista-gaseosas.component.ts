@@ -15,6 +15,7 @@ export class ListaGaseosasComponent implements OnInit {
     precio : 85,
     stock : 0,
     imagen: "assets/fanta.jpg",
+    cantidad: 0,
     
   },
   {
@@ -23,6 +24,7 @@ export class ListaGaseosasComponent implements OnInit {
     precio : 95,
     stock : 18,
     imagen: "assets/sprite.jpg",
+    cantidad: 0,
     
   },
   {
@@ -31,6 +33,7 @@ export class ListaGaseosasComponent implements OnInit {
     precio : 70,
     stock : 10,
     imagen: "assets/sevenup.jpg",
+    cantidad: 0,
     
   }
 
@@ -39,6 +42,22 @@ export class ListaGaseosasComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  disminuir(Gaseosa : Gaseosa) : void  {
+    if(Gaseosa.cantidad > 0)
+    Gaseosa.cantidad--;
+}
+
+  aumentar(Gaseosa : Gaseosa) : void  {
+    if(Gaseosa.cantidad < Gaseosa.stock)
+    Gaseosa.cantidad++;
+  }
+
+  cambiarcantidad (parametro, Gaseosa: Gaseosa) : void {
+    parametro.PreventDefault();
+
+
   }
 
 }

@@ -4,4 +4,5 @@ export interface Gaseosa {
     precio: number;
     stock: number;
     imagen: string;
+    cantidad: number;
 }

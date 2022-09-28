@@ -1,7 +1,9 @@
 import { NgModule, LOCALE_ID } from '@angular/core';   //locale_id es un token para saber tu localizacion
 import { BrowserModule } from '@angular/platform-browser';
 
-import { registerLocaleData } from '@angular/common';  // estos 2 import es para cambiar el idioma de la fecha en español 
+import { FormsModule } from '@angular/forms';
+
+import { registerLocaleData } from '@angular/common';  // estos 2 import es para cambiar el idioma de la fecha en español comando ng add @angular/localize 
 import localEs from '@angular/common/locales/es'
 
 registerLocaleData(localEs);
@@ -18,7 +20,8 @@ import { ListaGaseosasComponent } from './lista-gaseosas/lista-gaseosas.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [
     {
